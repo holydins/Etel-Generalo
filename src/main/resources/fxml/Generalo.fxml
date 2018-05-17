@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="generate" prefHeight="600.0" prefWidth="926.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.randommenugeneralo.controller.GeneraloController">
+    <children>
+        <Button fx:id="visszaButton" layoutX="54.0" layoutY="501.0" mnemonicParsing="false" onAction="#visszaButtonAction" prefHeight="36.0" prefWidth="104.0" text="Vissza">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+        <Label fx:id="hibajelento" alignment="CENTER" layoutX="189.0" layoutY="446.0" prefHeight="25.0" prefWidth="542.0" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Button fx:id="mentesButton" layoutX="767.0" layoutY="501.0" mnemonicParsing="false" onAction="#mentesButtonAction" prefHeight="36.0" prefWidth="104.0" text="Mentés">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+        <Label fx:id="hetfoLabel" alignment="CENTER" layoutX="46.5" layoutY="36.0" prefHeight="70.0" prefWidth="119.0" styleClass="hetfoLabel" stylesheets="@../styles/Generalo.css" text="Hétfő">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Label>
+        <Label fx:id="szerdaLabel" alignment="CENTER" layoutX="280.5" layoutY="36.0" prefHeight="70.0" prefWidth="119.0" styleClass="hetfoLabel" stylesheets="@../styles/Generalo.css" text="Szerda">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Label>
+        <Label fx:id="csutortokLabel" alignment="CENTER" layoutX="397.5" layoutY="36.0" prefHeight="70.0" prefWidth="119.0" styleClass="hetfoLabel" stylesheets="@../styles/Generalo.css" text="Csütörtök">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Label>
+        <Label fx:id="pentekLabel" alignment="CENTER" layoutX="514.5" layoutY="36.0" prefHeight="70.0" prefWidth="119.0" styleClass="hetfoLabel" stylesheets="@../styles/Generalo.css" text="Péntek">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Label>
+        <Label fx:id="keddLabel" alignment="CENTER" layoutX="163.5" layoutY="36.0" prefHeight="70.0" prefWidth="119.0" styleClass="hetfoLabel" stylesheets="@../styles/Generalo.css" text="Kedd">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Label>
+        <Label fx:id="vasarnapLabel" alignment="CENTER" layoutX="748.5" layoutY="36.0" prefHeight="70.0" prefWidth="119.0" styleClass="hetfoLabel" stylesheets="@../styles/Generalo.css" text="Vasárnap">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Label>
+        <Label fx:id="szombatLabel" alignment="CENTER" layoutX="631.5" layoutY="36.0" prefHeight="70.0" prefWidth="119.0" styleClass="hetfoLabel" stylesheets="@../styles/Generalo.css" text="Szombat">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Label>
+        <Label fx:id="hetfoReggeliLabel" alignment="CENTER" layoutX="46.5" layoutY="105.0" prefHeight="70.0" prefWidth="118.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="hetfoEbedLabel" alignment="CENTER" layoutX="46.5" layoutY="174.0" prefHeight="70.0" prefWidth="118.0" styleClass="hetfoEbedLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="hetfoVacsoraLabel" alignment="CENTER" layoutX="46.5" layoutY="243.0" prefHeight="70.0" prefWidth="118.0" styleClass="hetfoVacsoraLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Button fx:id="generalas" layoutX="411.0" layoutY="479.0" mnemonicParsing="false" onAction="#generalasButtonAction" prefHeight="36.0" prefWidth="104.0" text="Generálás">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+        <Label fx:id="keddReggeliLabel" alignment="CENTER" layoutX="164.5" layoutY="105.0" prefHeight="70.0" prefWidth="117.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="keddEbedLabel" alignment="CENTER" layoutX="164.5" layoutY="174.0" prefHeight="70.0" prefWidth="117.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="keddVacsoraLabel" alignment="CENTER" layoutX="164.5" layoutY="243.0" prefHeight="70.0" prefWidth="117.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="szerdaReggeliLabel" alignment="CENTER" layoutX="281.5" layoutY="105.0" prefHeight="70.0" prefWidth="117.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="szerdaEbedLabel" alignment="CENTER" layoutX="281.5" layoutY="174.0" prefHeight="70.0" prefWidth="117.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="szerdaVacsoraLabel" alignment="CENTER" layoutX="281.5" layoutY="243.0" prefHeight="70.0" prefWidth="117.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="csutortokReggeliLabel" alignment="CENTER" layoutX="398.5" layoutY="105.0" prefHeight="70.0" prefWidth="117.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="csutortokEbedLabel" alignment="CENTER" layoutX="398.5" layoutY="174.0" prefHeight="70.0" prefWidth="117.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="csutortokVacsoraLabel" alignment="CENTER" layoutX="398.5" layoutY="243.0" prefHeight="70.0" prefWidth="117.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="pentekReggeliLabel" alignment="CENTER" layoutX="515.5" layoutY="105.0" prefHeight="70.0" prefWidth="117.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="pentekEbedLabel" alignment="CENTER" layoutX="515.5" layoutY="174.0" prefHeight="70.0" prefWidth="117.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="pentekVacsoraLabel" alignment="CENTER" layoutX="515.5" layoutY="243.0" prefHeight="70.0" prefWidth="117.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="szombatReggeliLabel" alignment="CENTER" layoutX="632.5" layoutY="105.0" prefHeight="70.0" prefWidth="117.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="szombatEbedLabel" alignment="CENTER" layoutX="632.5" layoutY="174.0" prefHeight="70.0" prefWidth="117.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="szombatVacsoraLabel" alignment="CENTER" layoutX="632.5" layoutY="243.0" prefHeight="70.0" prefWidth="117.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="vasarnapReggeliLabel" alignment="CENTER" layoutX="749.5" layoutY="105.0" prefHeight="70.0" prefWidth="118.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="vasarnapEbedLabel" alignment="CENTER" layoutX="749.5" layoutY="174.0" prefHeight="70.0" prefWidth="118.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="vasarnapVacsoraLabel" alignment="CENTER" layoutX="749.5" layoutY="243.0" prefHeight="70.0" prefWidth="118.0" styleClass="hetfoReggeliLabel" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Button fx:id="hetfoReggeliButton" layoutX="70.0" layoutY="353.0" mnemonicParsing="false" onAction="#hetfoReggeliAction" prefHeight="25.0" prefWidth="71.0" text="Új reggeli" />
+        <Button fx:id="hetfoEbedButton" layoutX="70.0" layoutY="387.0" mnemonicParsing="false" onAction="#hetfoEbedAction" prefHeight="25.0" prefWidth="71.0" text="Új ebéd" />
+        <Button fx:id="hetfoVacsoraButton" layoutX="70.0" layoutY="417.0" mnemonicParsing="false" onAction="#hetfoVacsoraAction" text="Új vacsora" />
+        <Button fx:id="keddReggeliButton" layoutX="188.0" layoutY="353.0" mnemonicParsing="false" onAction="#keddReggeliAction" prefHeight="25.0" prefWidth="71.0" text="Új reggeli" />
+        <Button fx:id="szerdaReggeliButton" layoutX="306.0" layoutY="353.0" mnemonicParsing="false" onAction="#szerdaReggeliAction" prefHeight="25.0" prefWidth="71.0" text="Új reggeli" />
+        <Button fx:id="csutortokReggeliButton" layoutX="424.0" layoutY="353.0" mnemonicParsing="false" onAction="#csutortokReggeliAction" prefHeight="25.0" prefWidth="71.0" text="Új reggeli" />
+        <Button fx:id="pentekReggeliButton" layoutX="542.0" layoutY="353.0" mnemonicParsing="false" onAction="#pentekReggeliAction" prefHeight="25.0" prefWidth="71.0" text="Új reggeli" />
+        <Button fx:id="szombatReggeliButton" layoutX="660.0" layoutY="353.0" mnemonicParsing="false" onAction="#szombatReggeliAction" prefHeight="25.0" prefWidth="71.0" text="Új reggeli" />
+        <Button fx:id="vasarnapReggeliButton" layoutX="778.0" layoutY="353.0" mnemonicParsing="false" onAction="#vasarnapReggeliAction" prefHeight="25.0" prefWidth="71.0" text="Új reggeli" />
+        <Button fx:id="keddEbedButton" layoutX="188.0" layoutY="387.0" mnemonicParsing="false" onAction="#keddEbedAction" prefHeight="25.0" prefWidth="71.0" text="Új ebéd" />
+        <Button fx:id="szerdaEbedButton" layoutX="306.0" layoutY="387.0" mnemonicParsing="false" onAction="#szerdaEbedAction" prefHeight="25.0" prefWidth="71.0" text="Új ebéd" />
+        <Button fx:id="csutortokEbedButton" layoutX="424.0" layoutY="387.0" mnemonicParsing="false" onAction="#csutortokEbedAction" prefHeight="25.0" prefWidth="71.0" text="Új ebéd" />
+        <Button fx:id="pentekEbedButton" layoutX="542.0" layoutY="387.0" mnemonicParsing="false" onAction="#pentekEbedAction" prefHeight="25.0" prefWidth="71.0" text="Új ebéd" />
+        <Button fx:id="szombatEbedButton" layoutX="660.0" layoutY="387.0" mnemonicParsing="false" onAction="#szombatEbedAction" prefHeight="25.0" prefWidth="71.0" text="Új ebéd" />
+        <Button fx:id="vasarnapEbedButton" layoutX="778.0" layoutY="387.0" mnemonicParsing="false" onAction="#vasarnapEbedAction" prefHeight="25.0" prefWidth="71.0" text="Új ebéd" />
+        <Button fx:id="keddVacsoraButton" layoutX="188.0" layoutY="417.0" mnemonicParsing="false" onAction="#keddVacsoraAction" text="Új vacsora" />
+        <Button fx:id="szerdaVacsoraButton" layoutX="306.0" layoutY="417.0" mnemonicParsing="false" onAction="#szerdaVacsoraAction" text="Új vacsora" />
+        <Button fx:id="csutortokVacsoraButton" layoutX="424.0" layoutY="417.0" mnemonicParsing="false" onAction="#csutortokVacsoraAction" text="Új vacsora" />
+        <Button fx:id="pentekVacsoraButton" layoutX="542.0" layoutY="417.0" mnemonicParsing="false" onAction="#pentekVacsoraAction" text="Új vacsora" />
+        <Button fx:id="szombatVacsoraButton" layoutX="660.0" layoutY="417.0" mnemonicParsing="false" onAction="#szombatVacsoraAction" text="Új vacsora" />
+        <Button fx:id="vasarnapVacsoraButton" layoutX="778.0" layoutY="421.0" mnemonicParsing="false" onAction="#vasarnapVacsoraAction" text="Új vacsora" />
+    </children>
+</AnchorPane>

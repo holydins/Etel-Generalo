@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018.05.11., 17:16:10
+    Author     : rich
+*/
+
+.root {
+    -fx-background-image: url("/image/kezdokep.jpg");
+    -fx-background-size: cover;
+}
+
+.hetfoLabel {
+    -fx-background-color: red;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+}
+
+.hetfoReggeliLabel, .hetfoEbedLabel, .hetfoVacsoraLabel {
+    -fx-background-color: cornflowerblue;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}

@@ -1,0 +1,13 @@
+.button {
+    -fx-font-weight: bold;
+}
+
+.root {
+    -fx-background-image: url("/image/kezdokep.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.hetfoLabel {
+    -fx-background-color: white;
+}

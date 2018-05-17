@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<?import hu.unideb.inf.randommenugeneralo.controller.ErvenyesTextField?>
+
+<AnchorPane id="AnchorPane" fx:id="Data" prefHeight="600.0" prefWidth="926.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.randommenugeneralo.controller.AdatController">
+    <children>
+        <Label fx:id="vezeteknevLabel" layoutX="50.0" layoutY="160.0" prefHeight="44.0" prefWidth="112.0" styleClass="vezeteknevLabel" text="Vezetéknév:" textFill="RED">
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="keresztnevLabel" layoutX="50.0" layoutY="228.0" prefHeight="44.0" prefWidth="112.0" styleClass="keresztnevLabel" text="Keresztnév:" textFill="RED">
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+        </Label>
+        <ErvenyesTextField fx:id="vezeteknevInput" layoutX="162.0" layoutY="160.0" prefHeight="44.0" prefWidth="165.0" promptText="vezetéknév" />
+        <ErvenyesTextField fx:id="keresztnevInput" layoutX="162.0" layoutY="228.0" prefHeight="44.0" prefWidth="165.0" promptText="keresztnév" />
+        <Button fx:id="backButton" layoutX="54.0" layoutY="501.0" mnemonicParsing="false" onAction="#backButtonAction" prefHeight="36.0" prefWidth="104.0" text="Vissza">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Button fx:id="nextButton" layoutX="767.0" layoutY="501.0" mnemonicParsing="false" onAction="#nextButtonAction" prefHeight="36.0" prefWidth="104.0" text="Következő">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

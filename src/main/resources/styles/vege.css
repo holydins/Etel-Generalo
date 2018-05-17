@@ -1,0 +1,9 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.root {
+    -fx-background-image: url("/image/kezdokep.jpg");
+    -fx-background-size: cover;
+}
+
